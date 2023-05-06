@@ -6,32 +6,49 @@ function App() {
     <div className='App'>
 			<h1>App</h1>
 			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
-			<ChildComponent />
 		</div>
   );
 }
 
 export default App;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
+	## Creating React App: npx create-react-app react-1
+	## Run React App: npm start
+
 	JSX: JavaScript + XML (Looks like HTML)
 	- className instead of class
 	- singleton tags: need to close those tags by using / towards the end
 
 	Component:
-	- Can be function (Functional component)
-	- Can be class (Class based component - Not in your syllabus)
+	- Can be function (Functional component)/ Can be class (Class based component - Not in your syllabus)
 	- Returns JSX
+	- Can be nested
+	- Can be re-used
+
+	Using Components
+	- <ChildComponent></ChildComponent>
+	- <ChildComponent />
 
 	Export any component
 	- export default [ComponentName];
@@ -39,7 +56,7 @@ export default App;
 	Import any component
 	- import [ComponentName] from 'ComponentPath';
 
-	Using Components
-	- <ChildComponent></ChildComponent>
-	- <ChildComponent />
+	./: Current folder
+	../: Parent folder
+	/ : Child folder
 */
